@@ -1,0 +1,48 @@
+*{
+    box-sizing: border-box;
+}
+.greetings{
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 25px;
+}
+
+.container{
+    border: grey 2px solid;
+    border-radius: 30px;
+    max-width: 800px;
+    margin: auto;
+    padding: 15px;
+}
+.wrapper{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+.wrapper button{
+    padding: 10px 40px;
+    transition: 0.3s all ease;
+    cursor: pointer;
+}
+.wrapper button:hover{
+   color: white;
+    transform: scale(1.2);
+}
+.result{
+    text-align: center;
+}
+.p1{
+    text-align: center;
+}
+.counters {
+    display: flex;
+    justify-content: space-between;
+}
+.player_counter{
+    color: blue;
+    font-size: 24px;
+}
+.computer_counter{
+    color: red;
+    font-size: 24px;
+}
